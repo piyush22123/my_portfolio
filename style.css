@@ -1,10 +1,11 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-Regular.woff);
+}
+@font-face {
+    font-family: Fira Sans;
+    src: url(fonts/FiraSans-Bold.woff.add);
+}
 *{
     padding: 0;
     margin: 0;
