@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>portofolio</title>
+</head>
+
+<body>
+    <div class="cursor">
+    </div>
+    <div id="loader">
+        <video autoplay muted loop src="images/loading.mp4"></video>
+    </div>
+    <nav class="nav">
+        <img src="images/logo.png" alt="">
+        <div class="nav-part1">
+            <h4><a href="#" id="homeLink">Home</a></h4>
+            <h4><a href="#" id="skillsLink">Skills</a></h4>
+            <h4><a href="#" id="projectsLink">Projects</a></h4>
+            <h4><a href="#" id="contactLink">Contact</a></h4>
+
+        </div>
+        <div class="nav-part2">
+            <button><span><i class="ri-mail-send-line"></i></span>Hire Me</button>
+            <i onclick="opennav()" class="ri-menu-3-line"></i>
+        </div>
+    </nav>
+    <nav class="side-nav">
+        <div class="navigation">
+            <i onclick="closenav()" class="fa-solid fa-xmark"></i>
+            <h4><a href="#page1" onclick="closenav()">Home</a></h4>
+            <h4><a href="#page2" onclick="closenav()">Skills</a></h4>
+            <h4><a href="#page3" onclick="closenav()">Projects</a></h4>
+            <h4><a href="#page4" onclick="closenav()">Contact</a></h4>
+        </div>
+    </nav>
+    <div id="main">
+        <div class="page1" id="page1">
+            <div class="heading">
+                <h4>Hello👋,</h4>
+                <h1>I,m a web</h1>
+                <h1>Developer</h1>
+                <h4>I build things for web</h4>
+                <p>Hello and welcome to my web developer portofolio! I'm thirilled to showcase passion for creating
+                    captivating and functional websites.</p>
+                <a class="button" href="#">Download Resume</a>
+            </div>
+            <img src="images/bg.png" alt="">
+        </div>
+        <div class="strip">
+            <div class="slide">
+                <h4>Piyush Malviya</h4>
+                <h4>Piyush Malviya</h4>
+                <h4>Piyush Malviya</h4>
+                <h4>Piyush Malviya</h4>
+            </div>
+            <div class="slide">
+                <h4>Piyush Malviya</h4>
+                <h4>Piyush Malviya</h4>
+                <h4>Piyush Malviya</h4>
+                <h4>Piyush Malviya</h4>
+
+            </div>
+
+        </div>
+        <div class="page2" id="page2">
+            <div class="info">
+                <h1>About me</h1>
+                <p>Hii I am <span>Piyush</span> I Am Recent Graduate in Bachelor's in Computer Applications With No
+                    Experiance But I like To Work as a web developer. As a Web Developer, We are responsible for
+                    designing and developing web pages. My Primary Focus is To Create Responsive, User Friendly
+                    Experiances That Meet The Needs Of A Diverse Online Audience.</p>
+                <div class="photo">
+                    <img src="images/piyush.png" alt="">
+                </div>
+            </div>
+            <div class="skills">
+                <h1>My Skills</h1>
+                <p>Technologies and Languages that i am familier with.</p>
+                <div class="skillList1">
+                    <div class="s1">
+                        <div class="skill"><img src="images/HTML.png" alt=""></div>
+                        <p>HTML</p>
+                    </div>
+                    <div class="s2">
+                        <div class="skill"><img src="images/CSS.png" alt=""></div>
+                        <p>CSS</p>
+                    </div>
+                    <div class="s3">
+                        <div class="skill"><img src="images/javaScript.png" alt=""></div>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="s4">
+                        <div class="skill"><img src="images/java.png" alt=""></div>
+                        <p>Java</p>
+                    </div>
+                    <div class="s5">
+                        <div class="skill"><img src="images/gsap-greensock.png" alt=""></div>
+                        <p>GSAP</p>
+                    </div>
+                </div>
+
+                <div class="skillList1">
+                    <div class="s6">
+                        <div class="skill"><img src="images/c++.png" alt=""></div>
+                        <p>C++</p>
+                    </div>
+                    <div class="s7">
+                        <div class="skill"><img src="images/Git.png" alt=""></div>
+                        <p>Git/GitHub</p>
+                    </div>
+                    <div class="s8">
+                        <div class="skill"><img src="images/sql.png" alt=""></div>
+                        <p>SQL</p>
+                    </div>
+                    <div class="s9">
+                        <div class="skill"><img src="images/vscode.png" alt=""></div>
+                        <p>VS Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page3" id="page3">
+            <h1>here's a glimpse of some exciting👨‍💻 projects i've done</h1>
+            <div class="projects">
+                <div class="project">
+                    <div class="image"><video muted autoplay loop src="images/project1.mp4" alt="">
+                    </div>
+                    <h3>Two Good.com.au clone</h3>
+                    <p>Recreated the frontend of TwoGood.com.au, a business for good supporting women with lived
+                        experience of homelessness,
+                        domestic violence, and complex trauma.</p>
+                    <div class="live">
+                        <a href="#">
+                            <h2>View Project <span><i class="ri-arrow-right-up-line"></i></span></h2>
+                        </a>
+                        <div class="code">
+                            <h4>View Code <i class="ri-github-fill"></i></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="image"><video muted autoplay loop src="images/project2.mp4" alt="">
+                    </div>
+                    <h3>Duo Studio clone</h3>
+                    <p>◦ Recreated the front-end and back-end functionalities using HTML, CSS, JavaScript, GSAP,
+                        locomotive.js.</p>
+                    <div class="live">
+                        <a href="#">
+                            <h2>View Project <span><i class="ri-arrow-right-up-line"></i></span></h2>
+                        </a>
+                        <div class="code">
+                            <h4>View Code <i class="ri-github-fill"></i></h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="image"><video loop muted autoplay src="images/project3.mp4" alt="">
+                    </div>
+                    <h3>To-Do List </h3>
+                    <p>A simple to-do list web application where we can add, complete and delete out daily tasks with a
+                        feature that iout tasks is stored in our local disk so that no data is lost after minimizing or
+                        removing tab</p>
+                    <div class="live">
+                        <a href="#">
+                            <h2>View Project <span><i class="ri-arrow-right-up-line"></i></span></h2>
+                        </a>
+                        <div class="code">
+                            <h4>View Code <i class="ri-github-fill"></i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/piyush22123" target="_blank">See more projects <i
+                    class="ri-arrow-right-line"></i></a>
+        </div>
+        <div class="page4" id="page4">
+            <div class="box1">
+                <h1>Let's discuss <br>on something <span>cool</span> together</h1>
+                <div class="personal">
+                    <p><i class="ri-mail-line"></i> piyushmalviya2201@gmail.com</p>
+                    <p><i class="ri-phone-line"></i> +91 9657443467</p>
+                </div>
+                <h3>Follow me on..</h3>
+                <div class="social">
+                    <div class="soc"><a href="https://github.com/piyush22123" target="_blank"><i
+                                class="ri-github-fill"></i></a></i>
+                    </div>
+                    <div class="soc"><a href="https://www.linkedin.com/in/piyush-malviya-b9b278226/" target="_blank"><i
+                                class="ri-linkedin-fill"></i></a></i></div>
+                    <div class="soc"><a href="https://discordapp.com/users/1061595464899760148" target="_blank"><i
+                                class="ri-discord-fill"></i></a></i></div>
+                    <div class="soc"><a href="https://www.instagram.com/piyush_malviya04/" target="_blank"><i
+                                class="ri-instagram-line"></i></a></i></div>
+                </div>
+            </div>
+            <div class="box2">
+                <h2>Contact</h2>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" id="name" placeholder="Your name here" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email here" required>
+                    <textarea name="comment" id="comment" cols="20" rows="8" placeholder="Your message here"
+                        required></textarea>
+                    <button><i class="ri-send-plane-fill"></i>Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <footer class="footer-1">
+            <div class="part-1">
+                <h2>Piyush's Portfolio</h2>
+                <h4>Thank you for visiting my personal portfolio website. Connect with me over socials.</h4>
+                <h4>Please wait for a while all major projects will be listed soon. Till then keep visiting.</h4>
+            </div>
+            <div class="part-2">
+                <h2>Quick links</h2>
+                <ul>
+                    <li><i class="ri-login-circle-line"></i><a href="" id="homeLink">Home</a></li>
+                    <li><i class="ri-login-circle-line"></i><a href="" id="skillsLink">About me</a></li>
+                    <li><i class="ri-login-circle-line"></i><a href="" id="skillsLink">Skills</a></li>
+                    <li><i class="ri-login-circle-line"></i><a href="" id="projectsLink">Projects</a></li>
+                    <li><i class="ri-login-circle-line"></i><a href="" id="contactLink">Contact</a></li>
+                </ul>
+            </div>
+            <div class="part-3">
+                <h2>Contact Info</h2>
+                <h4><i class="ri-mail-line"></i>piyushmalviya2201@gmail.com</h4>
+                <h4><i class="ri-map-pin-line"></i>Maharashtra, India-444401,</h4>
+                <div class="social-links">
+                    <div class="con"><a href="https://github.com/piyush22123" target="_blank"><i
+                                class="ri-github-fill"></i></a></i>
+                    </div>
+                    <div class="con"><a href="https://www.linkedin.com/in/piyush-malviya-b9b278226/" target="_blank"><i
+                                class="ri-linkedin-fill"></i></a></i></div>
+                    <div class="con"><a href="https://discordapp.com/users/1061595464899760148" target="_blank"><i
+                                class="ri-discord-fill"></i></a></i></div>
+                    <div class="con"><a href="https://www.instagram.com/piyush_malviya04/" target="_blank"><i
+                                class="ri-instagram-line"></i></a></i></div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-2">
+            <img src="images/logo.png" alt="">
+            <h4>Design and build with ❤️ by <span>Piyush Malviya</span></h4>
+        </div>
+    </div>
+
+
+
+
+    <!-- locomotive js -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!---scrolltrigger-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- main -->
+    <script src="script.js"></script>
+</body>
+
+</html>
