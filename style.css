@@ -592,7 +592,7 @@ html, body{
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 1.5px;
+    height: 1.8px;
     width: 0%;
     background-color: #11fdf6;
     -webkit-transition: width ease 0.4s;
