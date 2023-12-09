@@ -491,7 +491,7 @@ html, body{
     scale: 1;
     transition: scale ease 0.3s;
 }
-.project:hover{
+.page3 .projects .project:hover{
     scale: 1.1;
 }
 .project .image{
