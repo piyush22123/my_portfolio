@@ -984,14 +984,14 @@ input::placeholder{
     }
     .page1 .heading{
         margin-top: 50px;
-        padding-top: 150px;
+        padding-top: 50px;
     }
     .page1 .heading h4{
         font-size: 4vh;
     }
     .heading h1{
-        font-size: 12vh;
-        line-height: 80px;
+        font-size: 8vh;
+        line-height: 70px;
         -webkit-text-stroke: 2px #0e0309;
     }
     .heading p{
@@ -1053,7 +1053,7 @@ input::placeholder{
     
     /* ------page3------- */
     .page3{
-        height: 290vh;
+        height: 250vh;
         width: 100%;
         background-color: #000000;
         position: relative;
@@ -1064,7 +1064,7 @@ input::placeholder{
         border-bottom: 1.2px solid rgb(255, 255, 255);
     }
     .page3 h1{
-        font-size: 6vh;
+        font-size: 5.5vh;
         width: 100%;
         padding: 0 10px;
         padding-top: 60px;
@@ -1073,14 +1073,14 @@ input::placeholder{
         flex-direction: column;
         gap: 40px;
         margin: 4px;
-        margin-top: 10px;
+        margin-top: 20px;
         top: 18%;
         left: 0%;
         width: 98vw;
     }
   
     .page3>a{
-        bottom: 1%;
+        bottom: 3%;
         left: 22%;
     }
 
