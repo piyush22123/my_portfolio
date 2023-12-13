@@ -373,8 +373,8 @@ function page4Anim(){
           trigger: ".page4 h1, .page4 .personal p, .page4 .social .soc",
           scroller: "#main",
           // markers: true,
-          start: "top 25%",
-          end: "top 25%",
+          start: "top 16%",
+          end: "top 16%",
       }
   })
 }
