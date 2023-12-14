@@ -265,8 +265,7 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    /* background-image: url(https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTQ0fHxiYWNrZ3JvdW5kfGVufDB8MHwwfHx8MA%3D%3D); */
-    /* background-image: url(images/page2\ bg.jpg); */
+    background-image: url();
     background: white;
     border-bottom: 2px solid #9b9a9a;
     position: relative;
@@ -936,6 +935,13 @@ input::placeholder{
 
 /* ---------responsive----------- */
 @media(max-width: 700px){
+
+
+    .cursor{
+        display: none;
+        /* transition: all 0.1s; */
+    }
+
     .nav{
         justify-content: space-between;
         padding: 2px 10px;
