@@ -44,7 +44,7 @@ main.addEventListener("mousemove", function(dets){
 function loader(){
 gsap.to("#loader", {
     top:"-100vh",
-    delay: 0.4,
+    delay: 4.4,
     duration: 1.5,
 })
 }
